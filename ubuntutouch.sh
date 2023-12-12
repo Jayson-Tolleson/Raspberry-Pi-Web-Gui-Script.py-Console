@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#!/usr/bin/env bash
 
 sudo mount -o remount,rw /
 sudo wget https://bootstrap.pypa.io/get-pip.py
