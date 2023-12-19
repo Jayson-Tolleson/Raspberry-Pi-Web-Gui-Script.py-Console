@@ -1,3 +1,5 @@
+#install termux,ipcam
+#make ipcam url relevent in script.py cv2.videocapture(url)
 pkg update
 pkg install python3
 pkg install cmake
