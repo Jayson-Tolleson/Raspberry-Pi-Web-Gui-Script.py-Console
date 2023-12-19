@@ -4,8 +4,11 @@ pkg update
 pkg install python3
 pkg install cmake
 pkg install ninja
-pkg install python3-numpy
-pkg insall python3-flask
+pkg insall git
+git clone --recurse-submodules https://github.com/Jayson-Tolleson/numpy.git
+cd numpy
+pip3 install .
 python3 -m ensurepip --upgrade
 pkg install openssl
+pip3 install flask
 pip3 install opencv_python
