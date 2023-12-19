@@ -1,0 +1,9 @@
+pkg update
+pkg install python3
+pkg install cmake
+pkg install ninja
+pkg install python3-numpy
+pkg insall python3-flask
+python3 -m ensurepip --upgrade
+pkg install openssl
+pip3 install opencv_python
