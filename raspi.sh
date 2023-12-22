@@ -12,7 +12,7 @@ After=multi-user.target
 Conflicts=getty@tty1.service
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 ~/Documents/Raspbperry-Pi-Web-Gui-Script/console.py
+ExecStart=/usr/bin/python3 /home/jay/Raspbperry-Pi-Web-Gui-Script/console.py
 StandardInput=tty-force
 [Install]
 WantedBy=multi-user.target" >  /lib/systemd/system/console.service
