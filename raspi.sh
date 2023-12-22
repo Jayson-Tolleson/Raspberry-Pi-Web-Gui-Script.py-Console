@@ -6,8 +6,6 @@ sudo wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 sudo python3 -m pip3 install flask
 sudo python3 -m pip3 install opencv-python
-cd ~/Documents/
-sudo git clone https://github.com/Jayson-Tolleson/Raspberry-Pi-Web-Gui-Script.py-Console.git
 sudo echo "[Unit]
 Description=Custom Python Service
 After=multi-user.target
